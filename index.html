@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light (default)">
+<html lang="en" data-theme="pastel">
 
 <head>
     <meta charset="UTF-8">
@@ -15,31 +15,14 @@
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/fe7d3cec09.js" crossorigin="anonymous"></script>
 
     <style>
         .font-lato {
             font-family: 'Lato', sans-serif;
         }
 
-        .search-container {
-            display: flex;
-            align-items: center;
-        }
-
-        .search-input {
-            padding: 8px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 16px;
-            flex: 1;
-        }
-
-        .search-icon {
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 8px;
-        }
     </style>
     </div>
 </head>
@@ -73,11 +56,12 @@
                <img src="images/favicon.svg" alt="">
                 <a class="btn btn-ghost normal-case text-4xl text-white font-bold">Fruit Burst</a>
             </div>
-            <div class="navbar-end">
-                <input class="rounded-full px-5 py-3 w-96 mx-5" type="text" placeholder="Search here" img src="images/search icon.svg">
-                
+            <div class="navbar-end relative">
+                <input class=" rounded-full px-5 py-3 w-96 m-5" type="text" placeholder="Search here" img src="images/search icon.svg">
+                <div class="absolute mr-8  ">
+                    <i class="    fa-solid fa-magnifying-glass" style="color: #0c0d0d;"></i></div>
             </div>
-
+           
               
             </header>
 </body>
